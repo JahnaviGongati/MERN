@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Font and Text</title>
+  <style>
+    .text {
+      font-size: 24px; /* Adjusts the size of the text */
+      font-weight: bold; /* Makes the text bold */
+      font-style: Arial; /* Makes the text italic */
+      text-decoration: underline; /* Underlines the text */
+      text-transform: uppercase; /* Converts text to uppercase */
+      text-align: center; /* Aligns text to the center */
+    }
+     .box {
+      width: 200px;
+      height: 100px;
+      padding: 20px; /* Space inside the box */
+      margin: 30px; /* Space outside the box */
+      border: 5px dotted Lightgreen; /* Border around the box */
+      background-color: Beige; /* Content background */
+      color:Violet;
+      text-align: center;
+ }
+  </style>
+</head>
+<body>
+  <p class="text">This is a demonstration of CSS font and text properties.</p>
+  <div class="box">This is a CSS Box Model demonstration.</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JS:
+
+<head>
+  <title>JS Example</title>
+</head>
+<body>
+
+<h2 id="greeting">Hello!</h2>
+<button onclick="changeText()">Click Me</button>
+<button onclick="changeColor()">Click To changecolor</button>
+
+<script>
+  function changeText() {
+    document.getElementById("greeting").innerHTML = "Waah!";
+  }
+ function changeColor() {
+    document.getElementById("greeting").style.color = "Lightgreen";
+  }
+</script>
+</body>
+</html>
